@@ -8,13 +8,13 @@ class fibonacci implements Runnable
   for(int i=0;i<10;i++)
   {
    System.out.println(a+" ");
-   int nextc=a+b;
+   int c=a+b;
    a=b;
    b=c;
   }
  }
 }
-class even implements runable
+class even implements Runnable
 {
  public void run()
  {
